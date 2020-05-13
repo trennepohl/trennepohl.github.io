@@ -109,15 +109,11 @@ if err != nil {
 fmt.Printf("%+v\n", pipelineResult)
 
 ```
-
-# Notes
+### Notes
 - This is a super simple example, do not use in production
 
 - In order to avoid many external dependencies I always create custom types for querying mongodb, e.g
-
-```
- type DBQuery map[string]interface{}
-```
+        ```type DBQuery map[string]interface{}```
 
 - Avoid using empty interfaces, this only leads to nil pointers and type assertions
 
