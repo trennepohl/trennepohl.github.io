@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>aggregation - Tag - My New Hugo Site</title>
+        <title>aggregation - Tag - </title>
         <link>http://example.org/tags/aggregation/</link>
-        <description>aggregation - Tag - My New Hugo Site</description>
+        <description>aggregation - Tag - </description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 12 May 2020 22:22:17 &#43;0200</lastBuildDate><atom:link href="http://example.org/tags/aggregation/" rel="self" type="application/rss+xml" /><item>
     <title>Mongodb aggregations in Golang</title>
     <link>http://example.org/go_mongo_aggregations/</link>
