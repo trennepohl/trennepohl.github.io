@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>pipelines - Tag - Thiago Trennepohl</title>
+        <link>http://example.org/pt-br/tags/pipelines/</link>
+        <description>pipelines - Tag - Thiago Trennepohl</description>
+        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Wed, 13 May 2020 22:22:17 &#43;0200</lastBuildDate><atom:link href="http://example.org/pt-br/tags/pipelines/" rel="self" type="application/rss+xml" /><item>
+    <title>Mongodb: Como fazer agregações/pipelines em Golang</title>
+    <link>http://example.org/pt-br/go_mongo_aggregations/</link>
+    <pubDate>Wed, 13 May 2020 22:22:17 &#43;0200</pubDate>
+    <author>Autor</author>
+    <guid>http://example.org/pt-br/go_mongo_aggregations/</guid>
+    <description><![CDATA[Neste post você vai encontrar como criar agregações no mongodb com Go]]></description>
+</item></channel>
+</rss>
