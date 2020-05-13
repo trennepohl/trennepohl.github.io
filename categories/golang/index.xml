@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>My New Hugo Site</title>
-        <link>http://example.org/</link>
-        <description>My memory is shit and I&#39;m tired of googling the same things</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 12 May 2020 22:22:17 &#43;0200</lastBuildDate><atom:link href="http://example.org/" rel="self" type="application/rss+xml" /><item>
+        <title>golang - Category - My New Hugo Site</title>
+        <link>http://example.org/categories/golang/</link>
+        <description>golang - Category - My New Hugo Site</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 12 May 2020 22:22:17 &#43;0200</lastBuildDate><atom:link href="http://example.org/categories/golang/" rel="self" type="application/rss+xml" /><item>
     <title>Mongodb aggregations in Golang</title>
     <link>http://example.org/go_mongo_aggregations/</link>
     <pubDate>Tue, 12 May 2020 22:22:17 &#43;0200</pubDate>
