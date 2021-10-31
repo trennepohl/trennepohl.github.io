@@ -3,7 +3,14 @@
         <title>Thiago Trennepohl</title>
         <link>http://example.org/pt-br/</link>
         <description>My memory is shit and I&#39;m tired of googling the same things</description>
-        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Wed, 13 May 2020 22:22:17 &#43;0200</lastBuildDate><atom:link href="http://example.org/pt-br/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Sun, 31 Oct 2021 12:00:00 &#43;0200</lastBuildDate><atom:link href="http://example.org/pt-br/" rel="self" type="application/rss+xml" /><item>
+    <title>Kubernetes e performance de DNS - ndots</title>
+    <link>http://example.org/pt-br/til_ndots_k8s/</link>
+    <pubDate>Sun, 31 Oct 2021 12:00:00 &#43;0200</pubDate>
+    <author>Autor</author>
+    <guid>http://example.org/pt-br/til_ndots_k8s/</guid>
+    <description><![CDATA[Uma dica simples que pode melhorar performance de DNS no seu cluster]]></description>
+</item><item>
     <title>Mongodb: Como fazer agregações/pipelines em Golang</title>
     <link>http://example.org/pt-br/go_mongo_aggregations/</link>
     <pubDate>Wed, 13 May 2020 22:22:17 &#43;0200</pubDate>

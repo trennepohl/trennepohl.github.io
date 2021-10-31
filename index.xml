@@ -3,7 +3,14 @@
         <title>Thiago Trennepohl</title>
         <link>http://example.org/</link>
         <description>My memory is shit and I&#39;m tired of googling the same things</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 12 May 2020 22:22:17 &#43;0200</lastBuildDate><atom:link href="http://example.org/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 31 Oct 2021 12:00:00 &#43;0200</lastBuildDate><atom:link href="http://example.org/" rel="self" type="application/rss+xml" /><item>
+    <title>Kubernetes DNS performance - ndots</title>
+    <link>http://example.org/til_ndots_k8s/</link>
+    <pubDate>Sun, 31 Oct 2021 12:00:00 &#43;0200</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/til_ndots_k8s/</guid>
+    <description><![CDATA[A hint that may improve DNS resolution performance]]></description>
+</item><item>
     <title>Mongodb aggregations in Golang</title>
     <link>http://example.org/go_mongo_aggregations/</link>
     <pubDate>Tue, 12 May 2020 22:22:17 &#43;0200</pubDate>

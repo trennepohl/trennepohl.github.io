@@ -2,8 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://example.org/pt-br/tags/agrega%C3%A7%C3%A3o/</loc><lastmod>2020-05-13T22:22:17&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://example.org/pt-br/categories/</loc><lastmod>2020-05-13T22:22:17&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://example.org/pt-br/categories/</loc><lastmod>2021-10-31T12:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="http://example.org/categories/"
@@ -12,6 +11,97 @@
                     hreflang="pt-br"
                     href="http://example.org/pt-br/categories/"
                     /></url><url>
+            <loc>http://example.org/pt-br/tags/dns/</loc><lastmod>2021-10-31T12:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://example.org/tags/dns/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="pt-br"
+                    href="http://example.org/pt-br/tags/dns/"
+                    /></url><url>
+            <loc>http://example.org/pt-br/tags/k8s/</loc><lastmod>2021-10-31T12:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://example.org/tags/k8s/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="pt-br"
+                    href="http://example.org/pt-br/tags/k8s/"
+                    /></url><url>
+            <loc>http://example.org/pt-br/categories/kubernetes/</loc><lastmod>2021-10-31T12:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://example.org/categories/kubernetes/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="pt-br"
+                    href="http://example.org/pt-br/categories/kubernetes/"
+                    /></url><url>
+            <loc>http://example.org/pt-br/til_ndots_k8s/</loc><lastmod>2021-10-31T12:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://example.org/til_ndots_k8s/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="pt-br"
+                    href="http://example.org/pt-br/til_ndots_k8s/"
+                    /></url><url>
+            <loc>http://example.org/pt-br/tags/ndots/</loc><lastmod>2021-10-31T12:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://example.org/tags/ndots/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="pt-br"
+                    href="http://example.org/pt-br/tags/ndots/"
+                    /></url><url>
+            <loc>http://example.org/pt-br/tags/pod/</loc><lastmod>2021-10-31T12:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://example.org/tags/pod/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="pt-br"
+                    href="http://example.org/pt-br/tags/pod/"
+                    /></url><url>
+            <loc>http://example.org/pt-br/posts/</loc><lastmod>2021-10-31T12:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://example.org/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="pt-br"
+                    href="http://example.org/pt-br/posts/"
+                    /></url><url>
+            <loc>http://example.org/pt-br/tags/</loc><lastmod>2021-10-31T12:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://example.org/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="pt-br"
+                    href="http://example.org/pt-br/tags/"
+                    /></url><url>
+            <loc>http://example.org/pt-br/</loc><lastmod>2021-10-31T12:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://example.org/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="pt-br"
+                    href="http://example.org/pt-br/"
+                    /></url><url>
+            <loc>http://example.org/pt-br/tags/throttling/</loc><lastmod>2021-10-31T12:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://example.org/tags/throttling/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="pt-br"
+                    href="http://example.org/pt-br/tags/throttling/"
+                    /></url><url>
+            <loc>http://example.org/pt-br/tags/agrega%C3%A7%C3%A3o/</loc><lastmod>2020-05-13T22:22:17&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://example.org/pt-br/tags/golang/</loc><lastmod>2020-05-13T22:22:17&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -56,31 +146,4 @@
                     rel="alternate"
                     hreflang="pt-br"
                     href="http://example.org/pt-br/tags/pipelines/"
-                    /></url><url>
-            <loc>http://example.org/pt-br/posts/</loc><lastmod>2020-05-13T22:22:17&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="http://example.org/posts/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="pt-br"
-                    href="http://example.org/pt-br/posts/"
-                    /></url><url>
-            <loc>http://example.org/pt-br/tags/</loc><lastmod>2020-05-13T22:22:17&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="http://example.org/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="pt-br"
-                    href="http://example.org/pt-br/tags/"
-                    /></url><url>
-            <loc>http://example.org/pt-br/</loc><lastmod>2020-05-13T22:22:17&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="http://example.org/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="pt-br"
-                    href="http://example.org/pt-br/"
                     /></url></urlset>

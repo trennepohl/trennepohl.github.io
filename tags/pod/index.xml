@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>pod - Tag - Thiago Trennepohl</title>
+        <link>http://example.org/tags/pod/</link>
+        <description>pod - Tag - Thiago Trennepohl</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 31 Oct 2021 12:00:00 &#43;0200</lastBuildDate><atom:link href="http://example.org/tags/pod/" rel="self" type="application/rss+xml" /><item>
+    <title>Kubernetes DNS performance - ndots</title>
+    <link>http://example.org/til_ndots_k8s/</link>
+    <pubDate>Sun, 31 Oct 2021 12:00:00 &#43;0200</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/til_ndots_k8s/</guid>
+    <description><![CDATA[A hint that may improve DNS resolution performance]]></description>
+</item></channel>
+</rss>

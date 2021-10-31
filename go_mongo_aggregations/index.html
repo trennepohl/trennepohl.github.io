@@ -9,10 +9,10 @@
         <meta name="Description" content="My memory is shit and I&#39;m tired of googling the same things"><meta property="og:title" content="Mongodb aggregations in Golang" />
 <meta property="og:description" content="In this post you&rsquo;ll find how to build mongodb pipelines in Go" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://example.org/go_mongo_aggregations/" />
-<meta property="og:image" content="http://example.org/logo.png"/>
+<meta property="og:url" content="http://example.org/go_mongo_aggregations/" /><meta property="og:image" content="http://example.org/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-05-12T22:22:17+02:00" />
 <meta property="article:modified_time" content="2020-05-12T22:22:17+02:00" /><meta property="og:site_name" content="Thiago Trennepohl" />
+
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="http://example.org/logo.png"/>
 
@@ -21,7 +21,7 @@
 <meta name="application-name" content="Thiago Trennepohl">
 <meta name="apple-mobile-web-app-title" content="Thiago Trennepohl"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://example.org/go_mongo_aggregations/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.en.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://example.org/go_mongo_aggregations/" /><link rel="next" href="http://example.org/til_ndots_k8s/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.en.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
@@ -155,7 +155,7 @@
 <p>Imagine the following dataset in a mongodb collection</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -163,7 +163,7 @@
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">{ _id: 1, cust_id: &#34;abc1&#34;, ord_date: ISODate(&#34;2012-11-02T17:04:11.102Z&#34;), status: &#34;A&#34;, amount: 50 }
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">{ _id: 1, cust_id: &#34;abc1&#34;, ord_date: ISODate(&#34;2012-11-02T17:04:11.102Z&#34;), status: &#34;A&#34;, amount: 50 }
 { _id: 2, cust_id: &#34;xyz1&#34;, ord_date: ISODate(&#34;2013-10-01T17:04:11.102Z&#34;), status: &#34;A&#34;, amount: 100 }
 { _id: 3, cust_id: &#34;xyz1&#34;, ord_date: ISODate(&#34;2013-10-12T17:04:11.102Z&#34;), status: &#34;D&#34;, amount: 25 }
 { _id: 4, cust_id: &#34;xyz1&#34;, ord_date: ISODate(&#34;2013-10-11T17:04:11.102Z&#34;), status: &#34;D&#34;, amount: 125 }
@@ -177,7 +177,7 @@
 <h4 id="group">Group</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -215,7 +215,7 @@
 </span><span class="lnt">36
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">type OrderStatusTotal struct {
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">type OrderStatusTotal struct {
 	ID string `bson:&#34;_id&#34;`
 	Total int `bson:&#34;total&#34;`
 }
@@ -256,7 +256,7 @@ fmt.Printf(&#34;%+v\n&#34;, pipelineResult)
 </div><h4 id="group-and-match">Group And Match</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -298,7 +298,7 @@ fmt.Printf(&#34;%+v\n&#34;, pipelineResult)
 </span><span class="lnt">40
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">type OrderStatusTotal struct {
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">type OrderStatusTotal struct {
 	ID string `bson:&#34;_id&#34;`
 	Total int `bson:&#34;total&#34;`
 }
@@ -385,12 +385,13 @@ fmt.Printf(&#34;%+v\n&#34;, pipelineResult)
         </section>
     </div>
 
-    <div class="post-nav"></div>
+    <div class="post-nav">
+            <a href="/til_ndots_k8s/" class="next" rel="next" title="Kubernetes DNS performance - ndots">Kubernetes DNS performance - ndots<i class="fas fa-angle-right fa-fw"></i></a></div>
 </div>
 <div id="comments"></div></article></div>
             </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.70.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.6"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
-                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">xxxx</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.87.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.6"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">xxxx</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
         </div>
     </footer></div>
 
