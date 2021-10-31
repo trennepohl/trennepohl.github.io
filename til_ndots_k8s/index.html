@@ -35,7 +35,7 @@
                 "url": "http:\/\/example.org\/cover.png",
                 "width":  800 ,
                 "height":  600 
-            },"genre": "posts","keywords": "k8s, dns, pod, ndots, throttling","wordcount":  266 ,
+            },"genre": "posts","keywords": "k8s, dns, pod, ndots, throttling","wordcount":  271 ,
         "url": "http:\/\/example.org\/til_ndots_k8s\/","datePublished": "2021-10-31T12:00:00+02:00","dateModified": "2021-10-31T12:00:00+02:00","publisher": {
                 "@type": "Organization",
                 "name": "Thiago Trennepohl",
@@ -127,7 +127,7 @@
                                 <i class="far fa-folder fa-fw"></i>kubernetes
                             </a></span></div>
             <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i><time datetime=31-10-2021>31-10-2021</time>&nbsp;
-                <i class="fas fa-pencil-alt fa-fw"></i>about 266 words&nbsp;
+                <i class="fas fa-pencil-alt fa-fw"></i>about 271 words&nbsp;
                 <i class="far fa-clock fa-fw"></i>2 min&nbsp;</div>
         </div><div class="details toc" id="toc-static">
                 <div class="details-summary toc-title">
@@ -164,7 +164,7 @@ options ndots:5
 </div><p>Notice that ndots is set to 5
 Now, imagine there&rsquo;s a payments service (apiv1/service) and that other pods (N replicas) are sending requests to this payments service using the internal service url.
 i.e <code>payments-svc.payments.svc.cluster.local:3000</code> (4 dots)</p>
-<p>The dns resolver, will then say &ldquo;Hey, 4 dots is less than 5!&rdquo; and then will hop into each of the nameservers until it find the right address</p>
+<p>The dns resolver, will then say &ldquo;Hey, 4 dots is less than 5!&rdquo; and then will build name queries with each of the domains below, try them and return the one that resolves.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1

@@ -21,7 +21,7 @@ Notice that ndots is set to 5
 Now, imagine there's a payments service (apiv1/service) and that other pods (N replicas) are sending requests to this payments service using the internal service url.
 i.e `payments-svc.payments.svc.cluster.local:3000` (4 dots)
 
-The dns resolver, will then say "Hey, 4 dots is less than 5!" and then will hop into each of the nameservers until it find the right address
+The dns resolver, will then say "Hey, 4 dots is less than 5!" and then will build name queries with each of the domains below, try them and return the one that resolves.
 ```
 default.svc.cluster.local
 svc.cluster.local

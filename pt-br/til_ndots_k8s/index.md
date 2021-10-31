@@ -24,7 +24,7 @@ Agora imagine que você tenha um serviço (apiv1/Service) chamado pagamentos e q
 A url da request seria algo do tipo: 
 `pagamentos-svc.pagamentos.svc.cluster.local:3000` (4 pontos)
 
-O resolvedor de DNS vai dizer, pera lá 4 é menor que 5 e vai buscar esse domínio em cada um dos nameservers até achar o mesmo.
+O resolvedor de DNS vai dizer, pera lá 4 é menor que 5 e vai montar url's com cada um dos dominíos abaixo, até achar a que resolve.
 ```
 default.svc.cluster.local
 svc.cluster.local

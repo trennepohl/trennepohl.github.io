@@ -35,7 +35,7 @@
                 "url": "http:\/\/example.org\/cover.png",
                 "width":  800 ,
                 "height":  600 
-            },"genre": "posts","keywords": "k8s, dns, pod, ndots, throttling","wordcount":  316 ,
+            },"genre": "posts","keywords": "k8s, dns, pod, ndots, throttling","wordcount":  317 ,
         "url": "http:\/\/example.org\/pt-br\/til_ndots_k8s\/","datePublished": "2021-10-31T12:00:00+02:00","dateModified": "2021-10-31T12:00:00+02:00","publisher": {
                 "@type": "Organization",
                 "name": "Thiago Trennepohl",
@@ -127,7 +127,7 @@
                                 <i class="far fa-folder fa-fw"></i>kubernetes
                             </a></span></div>
             <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i><time datetime=31-10-2021>31-10-2021</time>&nbsp;
-                <i class="fas fa-pencil-alt fa-fw"></i>316 palavras&nbsp;
+                <i class="fas fa-pencil-alt fa-fw"></i>317 palavras&nbsp;
                 <i class="far fa-clock fa-fw"></i>2 min&nbsp;</div>
         </div><div class="details toc" id="toc-static">
                 <div class="details-summary toc-title">
@@ -165,7 +165,7 @@ options ndots:5
 Agora imagine que você tenha um serviço (apiv1/Service) chamado pagamentos e que hipoteticamente existam outros pod nesse cluster que utilizem o DNS interno para enviar requests ao serviço de pagamento.</p>
 <p>A url da request seria algo do tipo:
 <code>pagamentos-svc.pagamentos.svc.cluster.local:3000</code> (4 pontos)</p>
-<p>O resolvedor de DNS vai dizer, pera lá 4 é menor que 5 e vai buscar esse domínio em cada um dos nameservers até achar o mesmo.</p>
+<p>O resolvedor de DNS vai dizer, pera lá 4 é menor que 5 e vai montar url&rsquo;s com cada um dos dominíos abaixo, até achar a que resolve.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
